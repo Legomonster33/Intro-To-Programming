@@ -1,0 +1,35 @@
+START
+
+    Declare Num1, num2, result as floating point number
+    declare Case as integer
+
+    INPUT Num1
+
+    INPUT num2
+
+    INPUT Case
+
+    Switch (Case)
+        case 1:
+            result = num1 + num2
+            break
+
+        case 2:
+            result = num1 - num2
+            break
+
+        case 3:
+            result = num1 * num2
+            break
+
+        case 4:
+            result = num1 / num2
+            break
+
+        default case:
+            print ("Wrong selection of menu option!")
+            END Program
+    
+    print result
+
+END

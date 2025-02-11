@@ -1,0 +1,21 @@
+START
+
+    Declare N, M as Integers
+    Initialize N, M to 0
+
+    Declare integer variable i. // for iterating in the loop
+
+    Declare float number. // used to store the floating point number from the user
+
+    FOR each i FROM 1 TO N // Loop to check if an input number is bigger or smaller than M.
+
+        INPUT number // Input the number.
+
+        IF number > M // compare number and M
+            print “The input number is bigger than the given M”
+        Else
+            “The input number is NOT bigger than the given M”
+
+    END FOR
+
+END

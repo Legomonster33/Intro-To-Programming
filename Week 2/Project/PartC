@@ -1,0 +1,6 @@
+Q1. How many spaces does the \t move the curser before printing?
+Answer: \t moves the cursor by 8 spaces
+
+Q2. What’s the difference between printf and puts?
+Answer: printf() allows for more advanced formatting options than puts(), 
+additionally puts() automatically puts a \n newline after the string, where printf() doesnt.

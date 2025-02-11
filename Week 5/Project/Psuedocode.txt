@@ -1,0 +1,32 @@
+Declare Num1, Xpos, Ypos, Quadrant as integer
+
+
+START GetQuadrant (Xpos, Ypos)
+    if Xpos > 0 and Ypos > 0
+        return 2
+    if Xpos < 0 and Ypos > 0
+        return 3
+    if Xpos < 0 and Ypos < 0
+        return 4
+    if Xpos > 0 and Ypos < 0
+        return 1
+    if Xpos = 0 and Ypos = 0
+        return origin
+    if Xpos = 0 and Ypos =! 0
+        return Y axis
+    if Xpos =! 0 and Ypos = 0
+        return X axis
+END GetQuadrant
+
+START
+
+    INPUT Num1
+    
+    FOR each i from 0 to Num1
+        INPUT Xpos
+        INPUT Ypos
+    print(GetQuadrant(Xpos,Ypos))
+
+    END FOR
+
+END

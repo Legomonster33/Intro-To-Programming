@@ -1,0 +1,25 @@
+START
+
+    Initialize N to 20000. // Declare and Initialize N to 20000.
+
+    Initialize sum to 0. // Declare and Initialize sum to 0.
+    Initialize max to 0. // Declare and Initialize max to 0.
+    Initialize avg to 0. // Declare and Initialize avg to 0.
+
+    Declare integer variable i.
+
+    Declare a variable number. // decalre the number that will be used each iteration
+
+    FOR each i FROM 1 TO N // Loop to store input for each number in the series and calculate.
+
+        INPUT number // Input the number.
+        ADD number to sum // Add the number to sum.
+        IF number > max // compare number and max
+            max = number // set max to the new number
+
+    END FOR // This is a loop to get N numbers from users and find the max and sum.
+
+    avg = sum/N // calculate average
+
+    OUTPUT sum , avg, max // Output the final sum avg and max on the screen.
+END
