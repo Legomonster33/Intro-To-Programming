@@ -19,8 +19,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/sigle/OneDrive - Humber College/Classwork/1st Year Semester 2/Intro To Programming/Week 4/Project",
-      "program": "c:/Users/sigle/OneDrive - Humber College/Classwork/1st Year Semester 2/Intro To Programming/Week 4/Project/build/Debug/outDebug",
+      "cwd": "c:/Users/sigle/OneDrive - Humber College/Classwork/1st Year Semester 2/Intro To Programming/Week 7/Project",
+      "program": "c:/Users/sigle/OneDrive - Humber College/Classwork/1st Year Semester 2/Intro To Programming/Week 7/Project/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
